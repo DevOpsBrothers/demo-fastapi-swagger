@@ -1,0 +1,16 @@
+[project]
+name = "demo-fastapi-swagger"
+version = "1.0.0"
+description = "This is a demo app for deploying in Cloud infra"
+authors = [{ name = "PRITAM CHAKRABORTY", email = "pritam.chk98@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[all] (>=0.115.11,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
