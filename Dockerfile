@@ -16,4 +16,5 @@ RUN poetry install --no-root
 EXPOSE $APP_PORT
 
 
+
 ENTRYPOINT ["sh", "startApp.sh"]
