@@ -17,8 +17,8 @@ def multiply(a: int, b: int):
 
 @app.get("/minus")
 def multiply(a: int, b: int):
-    return {"operation": "multiplication", "result": a - b}
+    return {"operation": "minus", "result": a - b}
 
 @app.get("/divide")
 def multiply(a: int, b: int):
-    return {"operation": "multiplication", "result": a / b}
+    return {"operation": "divide", "result": a / b}
