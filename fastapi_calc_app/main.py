@@ -22,3 +22,7 @@ def multiply(a: int, b: int):
 @app.get("/divide")
 def multiply(a: int, b: int):
     return {"operation": "divide", "result": a / b}
+
+@app.get("/mod")
+def multiply(a: int, b: int):
+    return {"operation": "mod", "result": a % b}
